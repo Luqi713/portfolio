@@ -1,0 +1,34 @@
+body{
+  margin: 0;
+  padding: 0%;
+}
+.sec{
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.topButton{
+  background-color: #fff;
+  color: #153837;
+  position: fixed;
+  bottom: 100px;
+  right: 100px;
+  z-index: 1000;
+  padding: 10px 10px 10px 10px;
+  border-radius: 100px;
+  font-weight: 600;
+  border: 1px solid #153837;
+  font-size: medium;
+}
+.topButton:hover{
+  background-color:#153837;
+  color:#fff;
+  border: 1px solid white;
+  position: fixed;
+}
+@media(max-width:1220px){
+  .topButton{
+    bottom: 20px;
+    right: 20px;
+  }
+}
