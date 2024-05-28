@@ -46,7 +46,7 @@ const Portfolio = () => {
   return (
     <>
     <div className="min-h-screen bg-gradient-to-b from-zinc-900 to-teal-900 text-white" id='home'>
-      <nav className="flex items-center justify-between p-10">
+      <nav className="flex items-center justify-between p-10 Navbar">
         <div className="text-2xl font-bold">Luqman's | Portfolio</div>
         <div className="hidden md:flex space-x-6">
           {NAV_LINKS.map((link, index) => (
@@ -67,7 +67,7 @@ const Portfolio = () => {
           <button id="close-btn" className={CLOSE_BTN_CLASSES} onClick={() => setSidebarVisible(false)}>Close</button>
         </div>
       </div>
-      <div className="container mx-auto p-12 flex flex-col md:flex-row items-center justify-between">
+      <div className="container mx-auto p-12 flex flex-col md:flex-row items-center justify-between portfolio">
         <div className="text-center md:text-left md:w-1/2">
           <h1 className="text-4xl font-bold mb-2">Hello, It's Me</h1>
           <h2 className="text-5xl font-bold mb-4">John Kendric</h2>

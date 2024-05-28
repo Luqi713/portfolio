@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.Navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    background-color: #171d1f;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+.portfolio{
+    padding: 15% 5%;
+}.Navbar
+.container{
+    padding: 10px 20px;
+}
+@media(max-width:1024px){
+    .portfolio{
+      padding: 25% 5%;
+  }
+  }
