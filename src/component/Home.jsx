@@ -70,8 +70,8 @@ const Portfolio = () => {
       <div className="container mx-auto p-12 flex flex-col md:flex-row items-center justify-between portfolio">
         <div className="text-center md:text-left md:w-1/2">
           <h1 className="text-4xl font-bold mb-2">Hello, It's Me</h1>
-          <h2 className="text-5xl font-bold mb-4">John Kendric</h2>
-          <h3 className="text-2xl text-teal-400 mb-6">And I'm a Frontend Developer</h3>
+          <h2 className="text-5xl font-bold mb-4">Luqman Ahmad</h2>
+          <h3 className="text-2xl text-teal-400 mb-6">And I'm a Mern Developer</h3>
           <p className="mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus nulla sed saepe rerum, animi explicita.</p>
           <div className="flex justify-center md:justify-start space-x-4 mb-6">
             {SOCIAL_LINKS.map((link, index) => (
